@@ -53,6 +53,7 @@ namespace Soccer.Manage.Business
                 Con = new Connection();
             }
             return Con;
+
         }
     }
 }
