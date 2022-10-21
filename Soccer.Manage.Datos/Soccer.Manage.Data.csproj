@@ -43,5 +43,11 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Soccer.Management.Entities\Soccer.Management.Entities.csproj">
+      <Project>{d82883ce-559c-431c-935b-2c517e39377b}</Project>
+      <Name>Soccer.Management.Entities</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
